@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Magazin online pentru femei. Haine perfecte pentru stilul tau">
+   <meta name="keywords" content="magazin online, imbracaminte, imbracaminte femei, haine dama, haine dama online, haine femei, haine made in Roamania, haine online, rochii dama, rochii online, bluze femei, bluze, pantaloni, geci, veste, bluze femei, pantaloni femei, veste femei">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/207839565f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/index.css">
+    <script src="scripts/script.js"></script>
+    <script src="scripts/search.js"></script>
+    <script src="scripts/loadpage.js"></script>
+    <title>Exclusiv</title>
+</head>
+<body>
+    <div id="top"></div>
+    <header class="navbar-container" id="navbar">
+        <section class="left-navbar-container">
+            <a class="navbar-watermark" href="index.html">Exclusiv</a>
+        </section>
+        <section class="right-navbar-container">
+            <a class="navbar-item navbar-contact" href="#contact">CONTACT</a>
+            <a class="navbar-item navbar-instagram" href="https://www.instagram.com/exclusiv.ro/" target="_blank"><i class=" fa-brands fa-instagram fa-lg" style="color: #ffffff"></i></a>
+        </section>
+    </header>
+    <aside class="banner-container"></aside>
+
+    <section class="product-container">
+        <h1 class="product-element product-title">IMBRACAMINTE</h1>
+        <section class="product-element product-display">
+            <section class="product-display-element product-search-filters">
+                <input class="product-search" type="text" name="search"  onkeyup="handleKeyPress(event)" id="search-input" placeholder="Cauta produse...">
+                <div class="splitter-search"></div>
+                <select class="product-filters" id="product-filters" name="filters" onchange="displayWithFilters()">
+                    <option value="none">Sortare</option>
+                    <option value="price-ascending">Pret crescator</option>
+                    <option value="price-descending">Pret descrescator</option>
+                </select>
+            </section>
+            <section class="product-list" id="product-list">
+                <!-- ADDED FROM PRODUCTS.JSON  -->
+            </section>
+            <aside class="no-matches" id="no-matches">
+                <h1>Nu a fost gasit niciun produs.</h1>
+            </aside>
+        </section>          
+    </section>
+
+    <footer class="contact-container" id="contact">
+        <h1 class="contact-item contact-title">CONTACT</h1>
+        <section class="contact-item contact-content">
+            <section class="content-item details-container">
+                <h2 class="content-title details-title">DETALII</h2>
+            </section>
+            <section class="content-item shipping-container">
+                <h2 class="content-title shipping-title">LIVRARE</h2>
+            </section>
+        </section>
+    </footer>
+</body>
+</html>

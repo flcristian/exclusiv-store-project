@@ -1,0 +1,123 @@
+[
+    {
+        "id": 371920,
+        "description":"Geaca",
+        "path":"",
+        "price": 68,
+        "tags":["geaca"],
+        "stock": false
+    },
+    {
+        "id": 958759 ,
+        "description":"Bluza",
+        "path":"",
+        "price": 110,
+        "tags":["bluza"],
+        "stock": true
+    },
+    {
+        "id":  526101 ,
+        "description":"Blugi",
+        "path":"",
+        "price": 55,
+        "tags":["blugi","pantaloni","denim"],
+        "stock": true
+    }
+    ,
+    {
+        "id":  122616,
+        "description":"Vesta",
+        "path":"",
+        "price": 120,
+        "tags":["vesta"],
+        "stock": true
+    }
+    ,
+    {
+        "id":  331975 ,
+        "description":"Rochie",
+        "path":"",
+        "price": 130,
+        "tags":["rochie"],
+        "stock": false
+    }
+    ,
+    {
+        "id": 154727 ,
+        "description":"Geaca Bomber",
+        "path":"",
+        "price": 210,
+        "tags":["bomber","geaca","piele"],
+        "stock": true
+    }
+    ,
+    {
+        "id":  263013,
+        "description":"Pantaloni Trenning",
+        "path":"",
+        "price": 60,
+        "tags":["pantaloni","trenning","sport"],
+        "stock": true
+    }
+    ,
+    {
+        "id":  962662,
+        "description":"Hanorac",
+        "path":"",
+        "price": 65,
+        "tags":["bluza","hanorac"],
+        "stock": true
+    }
+    ,
+    {
+        "id": 102365 ,
+        "description":"Pulover",
+        "path":"",
+        "price": 76,
+        "tags":["bluza","pulover"],
+        "stock": true
+    }
+    ,
+    {
+        "description":"Fusta",
+        "path":"",
+        "price": 40,
+        "tags":["fusta"],
+        "stock": true
+    }
+    ,
+    {
+        "id":  421971,
+        "description":"Shorts",
+        "path":"",
+        "price": 60,
+        "tags":["pantaloni","shorts","pantaloni scurti"],
+        "stock": true
+    }
+    ,
+    {
+        "id": 825241 ,
+        "description":"Camasa",
+        "path":"",
+        "price": 82,
+        "tags":["bluza","camasa"],
+        "stock": false
+    }
+    ,
+    {
+        "id":  596621,
+        "description":"Tricou",
+        "path":"",
+        "price": 45,
+        "tags":["bluza", "tricou"],
+        "stock": false
+    },
+    {
+        "id":  593896,
+        "description":"Palton",
+        "path":"",
+        "price": 160,
+        "tags":["palton", "geaca"],
+        "stock": false
+    }
+]
