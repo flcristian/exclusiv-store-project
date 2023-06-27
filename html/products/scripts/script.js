@@ -63,8 +63,8 @@ function nextImage(){
    for(var i = 0;i < data.length; i++){
      if(data[i].id == id){
        index = i;
+       break;
      }
-     break;
    }
    var  imagePaths = data[index].paths;
    const image = document.getElementById("product-image");
@@ -85,4 +85,28 @@ function openOverlay() {
 function closeOverlay() {
   var overlay = document.getElementById('overlay');
   overlay.style.display = 'none';
+}
+
+window.onload = function(){
+  var url = window.location.href;
+  var fileName = url.substring(url.lastIndexOf("-") + 1);
+  var string = fileName.slice(0, -5);
+  var id = Number(string);
+
+  returnData()
+   .then(data =>{
+   var index = -1;
+   for(var i = 0;i < data.length; i++){
+     if(data[i].id == id){
+       index = i;
+       break;
+     }
+    }
+  if(data[index].paths.length == 1){
+    const buttonleft = document.getElementById("left-image-button");
+    const buttonright = document.getElementById("right-image-button");
+    buttonleft.classList.add("hide-image-buttons");
+    buttonright.classList.add("hide-image-buttons");
+  }
+  });
 }
