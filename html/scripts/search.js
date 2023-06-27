@@ -23,12 +23,12 @@ function createProduct(data){
       productImage.alt = 'ERROR 404 - Image file not found';
     }
   });
-  const productDescriptionArea = document.createElement("div");
-  productDescriptionArea.classList.add('product-description-area');
-  const productDescription = document.createElement("div");
-  productDescription.classList.add('product-description');
-  productDescription.textContent = data.description;
-  productDescriptionArea.appendChild(productDescription);
+  const productNameArea = document.createElement("div");
+  productNameArea.classList.add('product-name-area');
+  const productName = document.createElement("div");
+  productName.classList.add('product-name');
+  productName.textContent = data.name;
+  productNameArea.appendChild(productName);
   const productPrice = document.createElement("div");
   productPrice.classList.add("product-price");
   productPrice.textContent = data.price + " RON";
@@ -43,11 +43,11 @@ function createProduct(data){
   productButtonArea.classList.add("product-button");
   const productButton = document.createElement("a");
   productButton.classList.add("product-button-text");
-  productButton.href = "contact.html";
+  productButton.href = "#contact";
   productButton.textContent = "Contact";
   productButtonArea.appendChild(productButton);
   productItem.appendChild(productImage);
-  productItem.appendChild(productDescriptionArea);
+  productItem.appendChild(productNameArea);
   productItem.appendChild(productPrice);
   if(stockWarning){
     productItem.appendChild(productStockWarningArea);
@@ -106,8 +106,8 @@ function displayWithFilters(){
   });
 }
 
-function containsInDescription(description, filter){
-  if(description.toUpperCase().indexOf(filter) > -1){
+function containsInName(name, filter){
+  if(name.toUpperCase().indexOf(filter) > -1){
     return true;
   }
   return false;
@@ -138,7 +138,7 @@ function search(data){
       tagcount++;
     }
     var products = [];
-    if(containsInDescription(data[i].description, filter) || containsInTags(data[i].tags, tagcount, filter)){
+    if(containsInName(data[i].name, filter) || containsInTags(data[i].tags, tagcount, filter)){
       list.appendChild(createProduct(data[i]));
       count = count + 1;
     }

@@ -10,11 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/207839565f.js" crossorigin="anonymous"></script>
+    <script src="scripts/button.js"></script>
     <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/index.css">
-    <script src="scripts/script.js"></script>
-    <script src="scripts/search.js"></script>
-    <script src="scripts/loadpage.js"></script>
+    <link rel="stylesheet" href="style/product.css">
     <title>Exclusiv</title>
 </head>
 <body>
@@ -28,5 +26,35 @@
             <a class="navbar-item navbar-instagram" href="https://www.instagram.com/exclusiv.ro/" target="_blank"><i class=" fa-brands fa-instagram fa-lg" style="color: #ffffff"></i></a>
         </section>
     </header>
+
+    <section class="product-container">
+        <section class="image-container">
+            <button id="left-image-button" onclick="previousImage()" class="image-button-left"></button>  
+            <img id="product-image" class="image-item" src='https://placehold.it/320x480?text=image1' alt=''/>
+            <button  id="right-image-button" onclick="nextImage()" class="image-button-right"></button>
+        </section>
+        <section class="product-details">
+            <h1 class="product-details-item product-name">Geaca de Piele</h1>
+            <h1 class="product-details-item product-price">100 RON</h1>
+            <section>
+                <p class="product-details-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p class="product-details-item product-subtitle">Lista de marimi :</p>
+                <p class="product-details-item">Lorem ipsum dolor sit amet.</p>
+                <p class="product-details-item">Lorem ipsum dolor sit amet.</p>
+                <p class="product-details-item">Lorem ipsum dolor sit amet.</p>
+                <p class="product-details-item product-subtitle">Materiale :</p>
+                <p class="product-details-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, ullam!</p>
+            </section>
+        </section>
+    </section>
+    <section class="button-container">
+        <div class="button">
+            <a class="button-text" href="index.html">Contact</a>
+        </div>
+        <div class="home">
+            <a class="home-text" href="index.html">Back to Home</a>
+        </div>
+    </section>
+    
 </body>
 </html>
