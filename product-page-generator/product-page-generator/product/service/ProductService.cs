@@ -56,13 +56,17 @@ namespace product_page_generator.product.service
             List<JsonData> list = new List<JsonData>();
             foreach(Product product in _list)
             {
-                list.Add(new JsonData(product.Id, product.Description, product.Path, product.Price, product.Tags, product.Stock));
+                list.Add(new JsonData(product.Id, product.Name, product.Description, product.Paths, product.Price, product.Tags, product.Stock));
             }
             JsonData[] data = list.ToArray();
             JsonSerializerOptions options = new JsonSerializerOptions { WriteIndented = true };
             string jsonString = JsonSerializer.Serialize(data, options);
-            Console.WriteLine(jsonString);
             File.WriteAllText("products.json", jsonString);
+        }
+
+        public void test()
+        {
+            Console.WriteLine(_list[0].CreateHtmlPageString());
         }
 
         public void ClearHtmlPages(string folderPath)
@@ -86,7 +90,7 @@ namespace product_page_generator.product.service
             foreach(Product product in _list)
             {
                 string content = product.CreateHtmlPageString();
-                string filePath = $"product-pages/{product.Name}-{product.Id}.html";
+                string filePath = $"product-pages/product-{product.Id}.html";
                 FileStream fileStream = File.Create(filePath);
                 fileStream.Close();
                 File.WriteAllText(filePath, content);

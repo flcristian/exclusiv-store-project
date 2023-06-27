@@ -9,19 +9,21 @@ namespace product_page_generator.jsondata
     public class JsonData
     {
         private int _id;
-        private string _description;
-        private string _path;
+        private string _name;
+        private string[] _description;
+        private string[] _paths;
         private double _price;
         private string[] _tags;
         private bool _stock;
 
         // Constructors
 
-        public JsonData(int id, string description, string path, double price, string[] tags, bool stock)
+        public JsonData(int id, string name, string[] description, string[] paths, double price, string[] tags, bool stock)
         {
             _id = id;
+            _name = name;
             _description = description;
-            _path = path;
+            _paths = paths;
             _price = price;
             _tags = tags;
             _stock = stock;
@@ -38,7 +40,16 @@ namespace product_page_generator.jsondata
             }
         }
 
-        public string description
+        public string name
+        {
+            get { return _name; }
+            set
+            {
+                _name = value;
+            }
+        }
+
+        public string[] description
         {
             get { return _description; }
             set
@@ -47,12 +58,12 @@ namespace product_page_generator.jsondata
             }
         }
 
-        public string path
+        public string[] paths
         {
-            get { return _path; }
+            get { return _paths; }
             set
             {
-                _path = value; 
+                _paths = value; 
             }
         }
 
