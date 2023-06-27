@@ -19,7 +19,7 @@ function previousImage(){
   // IMAGE CHANGE
   const imagePaths = [
     'https://placehold.it/320x480?text=image1',
-    'https://placehold.it/320x480?text=image2',
+    'https://placehold.it/600x480?text=image2',
     'https://placehold.it/320x480?text=image3'
   ];
   var lenght= 0;
@@ -39,7 +39,7 @@ function nextImage(){
    // IMAGE CHANGE
   const imagePaths = [
     'https://placehold.it/320x480?text=image1',
-    'https://placehold.it/320x480?text=image2',
+    'https://placehold.it/600x480?text=image2',
     'https://placehold.it/320x480?text=image3'
   ];
   var lenght= 0;
@@ -50,4 +50,17 @@ function nextImage(){
   const currentIndex = imagePaths.indexOf(image.src);
   const index = (currentIndex + 1) % lenght;
   image.src = imagePaths[index];
+}
+
+function openOverlay() {
+  var imageUrl = document.getElementById('product-image').src;
+  var overlay = document.getElementById('overlay');
+  var overlayImage = document.getElementById('overlay-image');
+  overlayImage.src = imageUrl;
+  overlay.style.display = 'flex';
+}
+
+function closeOverlay() {
+  var overlay = document.getElementById('overlay');
+  overlay.style.display = 'none';
 }
