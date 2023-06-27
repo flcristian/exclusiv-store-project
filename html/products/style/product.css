@@ -80,8 +80,7 @@ h1,h2,h3{
 /* PRODUCT IMAGES */
 
 .image-container{
-    width: 100%;
-    margin: 50px 50px 0 50px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,6 +150,10 @@ h1,h2,h3{
     font-weight: 600
 }
 
+.product-description{
+    padding: 0 10% 0 10%;
+}
+
 .product-details-item{
     margin-top: 5px;
     margin-bottom: 5px;
@@ -161,6 +164,13 @@ h1,h2,h3{
     font-size: 2em;
     font-weight: 700;
     font-family: "Gruppo", sans-serif;
+}
+
+.product-warning{
+    color: #a91102;
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
 }
 
 .button-container{
@@ -238,6 +248,80 @@ h1,h2,h3{
     
     .navbar-watermark{
         font-size: 2.3em;
+    }
+}
+
+@media (min-width: 750px){
+    .image-container{
+        margin-top: 0;
+    }
+    
+    .image-item{
+        max-width: 40vw;
+    }
+    
+    .product-container{
+        margin-top: 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        gap: 0;
+    }
+
+    .product-description{
+        padding: 0 25px 0 0;
+    }
+
+    .product-details{
+        max-width: 500px;
+        margin-top: 80px;
+        justify-content: center;
+    }
+
+    .product-details-item{
+        margin: 0;
+    }
+
+    .product-name{
+        line-height: 0.8;
+        padding: 0;
+    }
+
+    .button-container{
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .button{
+        margin-top: 0;
+        height: 40px;
+        width: 110px;
+        background-color: black;
+        
+        transition: background-color 0.25s;
+    }
+    
+    .button-text{
+        width: inherit;
+        height: inherit;
+        font-size: 1.5em;
+    }
+    
+    .home{
+        margin-top: 0;
+        height: 40px;
+        width: 170px;
+        background-color: black;
+        
+        transition: background-color 0.25s;
+    }
+    
+    .home-text{
+        width: inherit;
+        height: inherit;
+        font-size: 1.5em;
     }
 }
 
