@@ -108,11 +108,11 @@ h1,h2,h3{
     text-align: center;
   }
   
-  #overlay-image {
+#overlay-image {
     scale: 1;
-    max-width: 100vw;
-    max-height: 100vh;
-  }
+    max-width: 90%;
+    max-height: 90%;
+}
 
 .image-button-left{
     cursor: pointer;
