@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Magazin online pentru femei. Haine perfecte pentru stilul tau">
+   <meta name="keywords" content="magazin online, imbracaminte, imbracaminte femei, haine dama, haine dama online, haine femei, haine made in Roamania, haine online, rochii dama, rochii online, bluze femei, bluze, pantaloni, geci, veste, bluze femei, pantaloni femei, veste femei">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/207839565f.js" crossorigin="anonymous"></script>
+    <script src="scripts/image.js"></script>
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="style/product.css">
+    <title>Exclusiv</title>
+</head>
+<body>
+    <div id="top"></div>
+    <header class="navbar-container" id="navbar">
+        <section class="left-navbar-container">
+            <a class="navbar-watermark" href="../index.html">Exclusiv</a>
+        </section>
+        <section class="right-navbar-container">
+            <a class="navbar-item navbar-contact" href="../index.html">CONTACT</a>
+            <a class="navbar-item navbar-instagram" href="https://www.instagram.com/exclusiv.ro/" target="_blank"><i class=" fa-brands fa-instagram fa-lg" style="color: #ffffff"></i></a>
+        </section>
+    </header>
+
+    <section class="product-container">
+        <section class="image-container">
+            <button id="left-image-button" onclick="previousImage()" class="image-button-left"></button>  
+            <img id="product-image" class="image-item" src='https://placehold.it/320x480?text=image1' alt='' onclick="openOverlay()"/>
+            <div id="overlay" onclick="closeOverlay()">
+                <img id="overlay-image" src="">
+            </div>
+            <button  id="right-image-button" onclick="nextImage()" class="image-button-right"></button>
+        </section>
+        <section class="product-details">
+            <h1 class="product-details-item product-name">Geaca de Piele</h1>
+            <h1 class="product-details-item product-price">100 RON</h1>
+            <section class="product-description">
+                <p class="product-details-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quo velit similique voluptate necessitatibus illum enim quos architecto, deserunt dolorem.</p>
+                <p class="product-details-item product-subtitle">Lista de marimi :</p>
+                <p class="product-details-item">Lorem ipsum dolor sit amet.</p>
+                <p class="product-details-item">Lorem ipsum dolor sit amet.</p>
+                <p class="product-details-item">Lorem ipsum dolor sit amet.</p>
+                <p class="product-details-item">Lorem ipsum dolor sit amet.</p>
+                <p class="product-details-item">Lorem ipsum dolor sit amet.</p>
+                <p class="product-details-item">Lorem ipsum dolor sit amet.</p>
+                <p class="product-details-item product-subtitle">Materiale :</p>
+                <p class="product-details-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, ullam!</p>
+                <p class="product-details-item product-warning">Pentru a comanda, contactați-ne!</p>
+            </section>
+            <section class="button-container">
+                <div class="button">
+                    <a class="button-text" href="../index.html">Contact</a>
+                </div>
+                <div class="home">
+                    <a class="home-text" href="../index.html">Inapoi Acasa</a>
+                </div>
+            </section>
+        </section>
+    </section>
+    
+</body>
+</html>

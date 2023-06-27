@@ -1,7 +1,7 @@
 [
     {
         "id": 371920,
-        "description":"Geaca",
+        "name":"Geaca",
         "path":"",
         "price": 68,
         "tags":["geaca"],
@@ -9,7 +9,7 @@
     },
     {
         "id": 958759 ,
-        "description":"Bluza",
+        "name":"Bluza",
         "path":"",
         "price": 110,
         "tags":["bluza"],
@@ -17,7 +17,7 @@
     },
     {
         "id":  526101 ,
-        "description":"Blugi",
+        "name":"Blugi",
         "path":"",
         "price": 55,
         "tags":["blugi","pantaloni","denim"],
@@ -26,7 +26,7 @@
     ,
     {
         "id":  122616,
-        "description":"Vesta",
+        "name":"Vesta",
         "path":"",
         "price": 120,
         "tags":["vesta"],
@@ -35,7 +35,7 @@
     ,
     {
         "id":  331975 ,
-        "description":"Rochie",
+        "name":"Rochie",
         "path":"",
         "price": 130,
         "tags":["rochie"],
@@ -44,7 +44,7 @@
     ,
     {
         "id": 154727 ,
-        "description":"Geaca Bomber",
+        "name":"Geaca Bomber",
         "path":"",
         "price": 210,
         "tags":["bomber","geaca","piele"],
@@ -53,7 +53,7 @@
     ,
     {
         "id":  263013,
-        "description":"Pantaloni Trenning",
+        "name":"Pantaloni Trenning",
         "path":"",
         "price": 60,
         "tags":["pantaloni","trenning","sport"],
@@ -62,7 +62,7 @@
     ,
     {
         "id":  962662,
-        "description":"Hanorac",
+        "name":"Hanorac",
         "path":"",
         "price": 65,
         "tags":["bluza","hanorac"],
@@ -71,7 +71,7 @@
     ,
     {
         "id": 102365 ,
-        "description":"Pulover",
+        "name":"Pulover",
         "path":"",
         "price": 76,
         "tags":["bluza","pulover"],
@@ -79,7 +79,7 @@
     }
     ,
     {
-        "description":"Fusta",
+        "name":"Fusta",
         "path":"",
         "price": 40,
         "tags":["fusta"],
@@ -88,7 +88,7 @@
     ,
     {
         "id":  421971,
-        "description":"Shorts",
+        "name":"Shorts",
         "path":"",
         "price": 60,
         "tags":["pantaloni","shorts","pantaloni scurti"],
@@ -97,7 +97,7 @@
     ,
     {
         "id": 825241 ,
-        "description":"Camasa",
+        "name":"Camasa",
         "path":"",
         "price": 82,
         "tags":["bluza","camasa"],
@@ -106,7 +106,7 @@
     ,
     {
         "id":  596621,
-        "description":"Tricou",
+        "name":"Tricou",
         "path":"",
         "price": 45,
         "tags":["bluza", "tricou"],
@@ -114,7 +114,7 @@
     },
     {
         "id":  593896,
-        "description":"Palton",
+        "name":"Palton",
         "path":"",
         "price": 160,
         "tags":["palton", "geaca"],

@@ -79,13 +79,9 @@ namespace product_page_generator.product.service
             }
         }
 
-        public void CreateHtmlPage(int id)
-        {
-
-        }
-
         public void CreateAllHtmlPages()
         {
+            SaveList();
             ClearHtmlPages("product-pages");
             foreach(Product product in _list)
             {
