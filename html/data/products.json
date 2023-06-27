@@ -42,8 +42,7 @@
             "Descriere 3 pentru produs (aici pui descrierea)"
         ],
         "paths":[
-            "https://placehold.it/240x320?text=POZA1",
-            "https://placehold.it/240x320?text=POZA2"
+            "https://placehold.it/240x320?text=POZA1"
         ],
         "price": 55,
         "tags":["blugi","pantaloni","denim"],
