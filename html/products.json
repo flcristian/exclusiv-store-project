@@ -3,15 +3,9 @@
         "id": 371920,
         "name":"Geaca",
         "description":[
-            "Descriere 1 pentru produs (aici pui descrierea)",
-            "Descriere 2 pentru produs (aici pui descrierea)",
-            "Descriere 3 pentru produs (aici pui descrierea)"
+            "Descriere pentru produs (aici pui descrierea)"
         ],
         "paths":[
-            "https://placehold.it/240x320?text=POZA1",
-            "https://placehold.it/240x320?text=POZA2",
-            "https://placehold.it/240x320?text=POZA3",
-            "https://placehold.it/240x320?text=POZA4"
         ],
         "price": 68,
         "tags":["geaca"],
@@ -21,13 +15,9 @@
         "id": 958759 ,
         "name":"Bluza",
         "description":[
-            "Descriere 1 pentru produs (aici pui descrierea)",
-            "Descriere 2 pentru produs (aici pui descrierea)",
-            "Descriere 3 pentru produs (aici pui descrierea)"
+            "Descriere pentru produs (aici pui descrierea)"
         ],
         "paths":[
-            "https://placehold.it/240x320?text=POZA1",
-            "https://placehold.it/240x320?text=POZA2"
         ],
         "price": 110,
         "tags":["bluza"],
@@ -37,13 +27,9 @@
         "id":  526101 ,
         "name":"Blugi",
         "description":[
-            "Descriere 1 pentru produs (aici pui descrierea)",
-            "Descriere 2 pentru produs (aici pui descrierea)",
-            "Descriere 3 pentru produs (aici pui descrierea)"
+            "Descriere pentru produs (aici pui descrierea)"
         ],
         "paths":[
-            "https://placehold.it/240x320?text=POZA1",
-            "https://placehold.it/240x320?text=POZA2"
         ],
         "price": 55,
         "tags":["blugi","pantaloni","denim"],
@@ -157,11 +143,8 @@
     {
         "id": 825241 ,
         "name":"Camasa",
-        "description":[
-            "Descriere pentru produs (aici pui descrierea)"
-        ],
-        "paths":[
-        ],
+        "description": "Descriere pentru produs (aici pui descrierea)",
+        "path":"",
         "price": 82,
         "tags":["bluza","camasa"],
         "stock": false
