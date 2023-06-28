@@ -14,11 +14,13 @@ namespace product_page_generator.jsondata
         private string[] _paths;
         private double _price;
         private string[] _tags;
+        private string[] _sizes;
+        private string _materials;
         private bool _stock;
 
         // Constructors
 
-        public JsonData(int id, string name, string[] description, string[] paths, double price, string[] tags, bool stock)
+        public JsonData(int id, string name, string[] description, string[] paths, double price, string[] tags, string[] sizes, string materials, bool stock)
         {
             _id = id;
             _name = name;
@@ -26,6 +28,8 @@ namespace product_page_generator.jsondata
             _paths = paths;
             _price = price;
             _tags = tags;
+            _sizes = sizes;
+            _materials = materials;
             _stock = stock;
         }
 
@@ -82,6 +86,24 @@ namespace product_page_generator.jsondata
             set
             {
                 _tags = value;
+            }
+        }
+
+        public string[] sizes
+        {
+            get { return _sizes; }
+            set
+            {
+                _sizes = value;
+            }
+        }
+
+        public string materials
+        {
+            get { return _materials; }
+            set
+            {
+                _materials = value;
             }
         }
 

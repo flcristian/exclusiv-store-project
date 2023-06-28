@@ -17,6 +17,11 @@
     "tags": [
       "geaca"
     ],
+    "sizes":[
+      "M - 98cm lungime, 80cm talie",
+      "L - 102cm lungime, 82cm talie"
+    ],
+    "materials": "100% bumbac",
     "stock": false
   },
   {
@@ -35,6 +40,10 @@
     "tags": [
       "bluza"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": true
   },
   {
@@ -55,6 +64,10 @@
       "pantaloni",
       "denim"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": true
   },
   {
@@ -70,6 +83,10 @@
     "tags": [
       "vesta"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": true
   },
   {
@@ -85,6 +102,10 @@
     "tags": [
       "rochie"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": false
   },
   {
@@ -102,6 +123,10 @@
       "geaca",
       "piele"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": true
   },
   {
@@ -119,6 +144,10 @@
       "trenning",
       "sport"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": true
   },
   {
@@ -135,6 +164,10 @@
       "bluza",
       "hanorac"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": true
   },
   {
@@ -151,6 +184,10 @@
       "bluza",
       "pulover"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": true
   },
   {
@@ -166,6 +203,10 @@
     "tags": [
       "fusta"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": true
   },
   {
@@ -183,6 +224,10 @@
       "shorts",
       "pantaloni scurti"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": true
   },
   {
@@ -199,6 +244,10 @@
       "bluza",
       "camasa"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": false
   },
   {
@@ -215,6 +264,10 @@
       "bluza",
       "tricou"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": false
   },
   {
@@ -231,6 +284,10 @@
       "palton",
       "geaca"
     ],
+    "sizes":[
+
+    ],
+    "materials": "",
     "stock": false
   }
 ]
