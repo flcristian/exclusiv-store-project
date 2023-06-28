@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\product-page-generator.csproj": {}
+    "D:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\product-page-generator.csproj": {}
   },
   "projects": {
-    "d:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\product-page-generator.csproj": {
+    "D:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\product-page-generator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\product-page-generator.csproj",
+        "projectUniqueName": "D:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\product-page-generator.csproj",
         "projectName": "product-page-generator",
-        "projectPath": "d:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\product-page-generator.csproj",
+        "projectPath": "D:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\product-page-generator.csproj",
         "packagesPath": "C:\\Users\\Ruski\\.nuget\\packages\\",
-        "outputPath": "d:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\obj\\",
+        "outputPath": "D:\\mycode\\exclusiv\\product-page-generator\\product-page-generator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

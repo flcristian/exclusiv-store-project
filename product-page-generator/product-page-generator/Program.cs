@@ -10,4 +10,4 @@ internal class Program
         ProductService service = new ProductService();
         service.CreateAllHtmlPages();
     }
-}
+};

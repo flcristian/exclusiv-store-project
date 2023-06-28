@@ -40,7 +40,8 @@
     "tags": [
       "bluza"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": true
   },
@@ -62,7 +63,8 @@
       "pantaloni",
       "denim"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": true
   },
@@ -79,7 +81,8 @@
     "tags": [
       "vesta"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": true
   },
@@ -96,7 +99,8 @@
     "tags": [
       "rochie"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": false
   },
@@ -115,7 +119,8 @@
       "geaca",
       "piele"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": true
   },
@@ -134,7 +139,8 @@
       "trenning",
       "sport"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": true
   },
@@ -152,7 +158,8 @@
       "bluza",
       "hanorac"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": true
   },
@@ -170,7 +177,8 @@
       "bluza",
       "pulover"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": true
   },
@@ -187,7 +195,8 @@
     "tags": [
       "fusta"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": true
   },
@@ -206,7 +215,8 @@
       "shorts",
       "pantaloni scurti"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": true
   },
@@ -224,7 +234,8 @@
       "bluza",
       "camasa"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": false
   },
@@ -242,7 +253,8 @@
       "bluza",
       "tricou"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": false
   },
@@ -260,7 +272,8 @@
       "palton",
       "geaca"
     ],
-    "sizes": [],
+    "sizes": [
+    ],
     "materials": "",
     "stock": false
   }

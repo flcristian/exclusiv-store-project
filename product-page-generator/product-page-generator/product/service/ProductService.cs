@@ -69,12 +69,6 @@ namespace product_page_generator.product.service
             File.WriteAllText("products.json", jsonString);
         }
 
-        public void test()
-        {
-            Console.WriteLine(_list[0]);
-            Console.WriteLine(_list[0].CreateHtmlPageString());
-        }
-
         public void ClearHtmlPages(string folderPath)
         {
             foreach (string filePath in Directory.GetFiles(folderPath))

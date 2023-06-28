@@ -83,18 +83,10 @@ namespace product_page_generator.product.model
             {
                 sizes.Add(element.GetString());
             }
-            if (sizes.Count() == 0)
-            {
-                sizes = new List<string> { "~marimi~" };
-            }
             _sizes = sizes.ToArray();
 
             // ASSIGNING MATERIALS
             _materials = item.GetProperty("materials").GetString();
-            if (_materials == null || _materials.Equals(""))
-            {
-                _materials = "~materiale~";
-            }
 
             // ASSIGNING STOCK
             _stock = item.GetProperty("stock").GetBoolean();
@@ -276,11 +268,20 @@ namespace product_page_generator.product.model
             {
                 htmlContent += $"<p class='product-details-item'>{desc}</p>";
             }
-            htmlContent += $@"<p class='product-details-item product-subtitle'>Lista de marimi :</p>
-                <p class='product-details-item'>~marimi~</p>
-                <p class='product-details-item product-subtitle'>Materiale :</p>
-                <p class='product-details-item'>~materiale~</p>
-                <p class='product-details-item product-warning'>Pentru a comanda, contactați-ne!</p>
+            if(_sizes.Count() > 0)
+            {
+                htmlContent += $@"<p class='product-details-item product-subtitle'>Lista de marimi :</p>";
+                foreach (string size in _sizes)
+                {
+                    htmlContent += $"<p class='product-details-item'>{size}</p>";
+                }
+            }
+            if(!_materials.Equals("") && _materials != null)
+            {
+                htmlContent += $@"<p class='product-details-item product-subtitle'>Materiale :</p>
+                <p class='product-details-item'>{_materials}</p>";
+            }
+            htmlContent += $@"<p class='product-details-item product-warning'>Pentru a comanda, contactați-ne!</p>
             </section>
             <section class='button-container'>
                 <div class='button'>
