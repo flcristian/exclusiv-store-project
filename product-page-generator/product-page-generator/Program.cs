@@ -8,6 +8,6 @@ internal class Program
     private static void Main(string[] args)
     {
         ProductService service = new ProductService();
-        service.test();
+        service.CreateAllHtmlPages();
     }
 }
