@@ -23,28 +23,28 @@ function buttonPressed(left){
 function previousImage(){
  // BUTTON COLOR CHANGE
  buttonPressed(true);
-  
-  // IMAGE CHANGE
-  var url = window.location.href;
-  var fileName = url.substring(url.lastIndexOf("-") + 1);
-  var string = fileName.slice(0, -5);
-  var id = Number(string);
 
-  returnData()
-  .then(data =>{
-  var index = -1;
-  for(var i = 0;i < data.length; i++){
-    if(data[i].id == id){
-      index = i;
-    }
-    break;
-  }
-  var  imagePaths = data[index].paths;
-  const image = document.getElementById("product-image");
-  const currentIndex = imagePaths.indexOf(image.src);
-  const newIndex = (currentIndex - 1 + imagePaths.length) % imagePaths.length;
-  image.src = imagePaths[newIndex];
-  });
+ // IMAGE CHANGE
+ var url = window.location.href;
+ var fileName = url.substring(url.lastIndexOf("-") + 1);
+ var string = fileName.slice(0, -5);
+ var id = Number(string);
+
+ returnData()
+ .then(data =>{
+ var index = -1;
+ for(var i = 0;i < data.length; i++){
+   if(data[i].id == id){
+     index = i;
+     break;
+   }
+ }
+ var  imagePaths = data[index].paths;
+ const image = document.getElementById("product-image");
+ const currentIndex = imagePaths.indexOf(image.src);
+ const newIndex = (currentIndex - 1 + imagePaths.length) % imagePaths.length;
+ image.src = imagePaths[newIndex];
+ });
 }
 
 function nextImage(){
@@ -102,7 +102,8 @@ window.onload = function(){
        break;
      }
     }
-  if(data[index].paths.length == 1){
+  const length = data[index].paths.length
+  if( length < 2){
     const buttonleft = document.getElementById("left-image-button");
     const buttonright = document.getElementById("right-image-button");
     buttonleft.classList.add("hide-image-buttons");

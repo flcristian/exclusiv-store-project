@@ -15,11 +15,13 @@ namespace product_page_generator.product.model
         private string[] _paths;
         private double _price;
         private string[] _tags;
+        private string[] _sizes;
+        private string _materials;
         private bool _stock;
 
         // Constructors
 
-        public Product(int id, string name, string[] description, string[] paths, double price, string[] tags, bool stock)
+        public Product(int id, string name, string[] description, string[] paths, double price, string[] tags, string[] sizes, string materials, bool stock)
         {
             _id = id;
             _name = name;
@@ -27,6 +29,8 @@ namespace product_page_generator.product.model
             _paths = paths;
             _price = price;
             _tags = tags;
+            _sizes = sizes;
+            _materials = materials;
             _stock = stock;
         }
 
@@ -71,6 +75,18 @@ namespace product_page_generator.product.model
                 tags.Add(element.GetString());
             }
             _tags = tags.ToArray();
+
+            // ASSIGNING SIZES
+            List<string> sizes = new List<string>();
+            arrayProperty = item.GetProperty("sizes");
+            foreach (JsonElement element in arrayProperty.EnumerateArray())
+            {
+                sizes.Add(element.GetString());
+            }
+            _sizes = sizes.ToArray();
+
+            // ASSIGNING MATERIALS
+            _materials = item.GetProperty("materials").GetString();
 
             // ASSIGNING STOCK
             _stock = item.GetProperty("stock").GetBoolean();
@@ -132,6 +148,24 @@ namespace product_page_generator.product.model
             }
         }
 
+        public string[] Sizes
+        {
+            get { return _sizes; }
+            set
+            {
+                _sizes = value;
+            }
+        }
+
+        public string Materials
+        {
+            get { return _materials; }
+            set
+            {
+                _materials = value;
+            }
+        }
+
         public bool Stock
         {
             get { return _stock; }
@@ -168,6 +202,13 @@ namespace product_page_generator.product.model
                 desc += $"{_tags[i]} ";
             }
             desc += "\n";
+            desc += $"Sizes: ";
+            for (int i = 0; i < _sizes.Count(); i++)
+            {
+                desc += $"{_sizes[i]} ";
+            }
+            desc += "\n";
+            desc += $"Materials: {_materials}\n";
             desc += $"Stock: {_stock}\n";
 
             return desc;
@@ -182,7 +223,12 @@ namespace product_page_generator.product.model
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta name='description' content='Magazin online pentru femei. Haine perfecte pentru stilul tau'>
-   <meta name='keywords' content='magazin online, imbracaminte, imbracaminte femei, haine dama, haine dama online, haine femei, haine made in Roamania, haine online, rochii dama, rochii online, bluze femei, bluze, pantaloni, geci, veste, bluze femei, pantaloni femei, veste femei'>
+   <meta name='keywords' content='";
+            foreach(string tag in _tags)
+            {
+                htmlContent += tag + ", ";
+            }
+            htmlContent += $@"magazin online, imbracaminte, imbracaminte femei, haine dama, haine dama online, haine femei, haine made in Roamania, haine online, rochii dama, rochii online, bluze femei, bluze, pantaloni, geci, veste, bluze femei, pantaloni femei, veste femei'>
     <link rel='preconnect' href='https://fonts.googleapis.com'>
     <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
     <link href='https://fonts.googleapis.com/css2?family=Gruppo&display=swap' rel='stylesheet'>
@@ -222,11 +268,20 @@ namespace product_page_generator.product.model
             {
                 htmlContent += $"<p class='product-details-item'>{desc}</p>";
             }
-            htmlContent += $@"<p class='product-details-item product-subtitle'>Lista de marimi :</p>
-                <p class='product-details-item'>~marimi~</p>
-                <p class='product-details-item product-subtitle'>Materiale :</p>
-                <p class='product-details-item'>~materiale~</p>
-                <p class='product-details-item product-warning'>Pentru a comanda, contactați-ne!</p>
+            if(_sizes.Count() > 0)
+            {
+                htmlContent += $@"<p class='product-details-item product-subtitle'>Lista de marimi :</p>";
+                foreach (string size in _sizes)
+                {
+                    htmlContent += $"<p class='product-details-item'>{size}</p>";
+                }
+            }
+            if(!_materials.Equals("") && _materials != null)
+            {
+                htmlContent += $@"<p class='product-details-item product-subtitle'>Materiale :</p>
+                <p class='product-details-item'>{_materials}</p>";
+            }
+            htmlContent += $@"<p class='product-details-item product-warning'>Pentru a comanda, contactați-ne!</p>
             </section>
             <section class='button-container'>
                 <div class='button'>

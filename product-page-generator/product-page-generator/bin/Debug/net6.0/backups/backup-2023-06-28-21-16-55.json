@@ -17,7 +17,7 @@
     "tags": [
       "geaca"
     ],
-    "sizes": [
+    "sizes":[
       "M - 98cm lungime, 80cm talie",
       "L - 102cm lungime, 82cm talie"
     ],
@@ -40,10 +40,10 @@
     "tags": [
       "bluza"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -64,10 +64,10 @@
       "pantaloni",
       "denim"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -83,10 +83,10 @@
     "tags": [
       "vesta"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -102,10 +102,10 @@
     "tags": [
       "rochie"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": false
   },
   {
@@ -123,10 +123,10 @@
       "geaca",
       "piele"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -144,10 +144,10 @@
       "trenning",
       "sport"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -164,10 +164,10 @@
       "bluza",
       "hanorac"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -184,10 +184,10 @@
       "bluza",
       "pulover"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -203,10 +203,10 @@
     "tags": [
       "fusta"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -224,10 +224,10 @@
       "shorts",
       "pantaloni scurti"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -244,10 +244,10 @@
       "bluza",
       "camasa"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": false
   },
   {
@@ -264,10 +264,10 @@
       "bluza",
       "tricou"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": false
   },
   {
@@ -284,10 +284,10 @@
       "palton",
       "geaca"
     ],
-    "sizes": [
-      "~marimi~"
+    "sizes":[
+
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": false
   }
 ]

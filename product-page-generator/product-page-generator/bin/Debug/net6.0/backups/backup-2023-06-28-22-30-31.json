@@ -41,9 +41,8 @@
       "bluza"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -65,9 +64,8 @@
       "denim"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -84,9 +82,8 @@
       "vesta"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -103,9 +100,8 @@
       "rochie"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": false
   },
   {
@@ -124,9 +120,8 @@
       "piele"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -145,9 +140,8 @@
       "sport"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -165,9 +159,8 @@
       "hanorac"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -185,9 +178,8 @@
       "pulover"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -204,9 +196,8 @@
       "fusta"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -225,9 +216,8 @@
       "pantaloni scurti"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": true
   },
   {
@@ -245,9 +235,8 @@
       "camasa"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": false
   },
   {
@@ -265,9 +254,8 @@
       "tricou"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": false
   },
   {
@@ -285,9 +273,8 @@
       "geaca"
     ],
     "sizes": [
-      "~marimi~"
     ],
-    "materials": "~materiale~",
+    "materials": "",
     "stock": false
   }
 ]

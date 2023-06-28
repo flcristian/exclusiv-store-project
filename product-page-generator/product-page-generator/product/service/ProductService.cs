@@ -41,9 +41,8 @@ namespace product_page_generator.product.service
             jsonDocument.Dispose();
         }
 
-        public void SaveList()
+        public void BackupList()
         {
-            // CREATING BACKUP
             Directory.CreateDirectory("backups");
             DateTime currentTime = DateTime.Now;
             string timeString = currentTime.ToString("yyyy-MM-dd-HH-mm-ss");
@@ -51,22 +50,23 @@ namespace product_page_generator.product.service
             FileStream fileStream = File.Create(filePath);
             fileStream.Close();
             File.WriteAllText(filePath, File.ReadAllText("products.json"));
+        }
+
+        public void SaveList()
+        {
+            // CREATING BACKUP
+            BackupList();
 
             // SAVING PRODUCT LIST TO JSON
             List<JsonData> list = new List<JsonData>();
             foreach(Product product in _list)
             {
-                list.Add(new JsonData(product.Id, product.Name, product.Description, product.Paths, product.Price, product.Tags, product.Stock));
+                list.Add(new JsonData(product.Id, product.Name, product.Description, product.Paths, product.Price, product.Tags, product.Sizes, product.Materials, product.Stock));
             }
             JsonData[] data = list.ToArray();
             JsonSerializerOptions options = new JsonSerializerOptions { WriteIndented = true };
             string jsonString = JsonSerializer.Serialize(data, options);
             File.WriteAllText("products.json", jsonString);
-        }
-
-        public void test()
-        {
-            Console.WriteLine(_list[0].CreateHtmlPageString());
         }
 
         public void ClearHtmlPages(string folderPath)
