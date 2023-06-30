@@ -8,10 +8,10 @@
       "Descriere 3 pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=POZA1",
-      "https://placehold.it/240x320?text=POZA2",
-      "https://placehold.it/240x320?text=POZA3",
-      "https://placehold.it/240x320?text=POZA4"
+      "https://placehold.it/1080x1920?text=POZA1",
+      "https://placehold.it/1920x1080?text=POZA2",
+      "https://placehold.it/1080x1920?text=POZA3",
+      "https://placehold.it/1920x1080?text=POZA4"
     ],
     "price": 68,
     "tags": [
@@ -33,8 +33,8 @@
       "Descriere 3 pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=POZA1",
-      "https://placehold.it/240x320?text=POZA2"
+      "https://placehold.it/1080x1920?text=POZA1",
+      "https://placehold.it/1080x1920?text=POZA2"
     ],
     "price": 110,
     "tags": [
@@ -53,8 +53,8 @@
       "Descriere 3 pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=POZA1",
-      "https://placehold.it/240x320?text=POZA2"
+      "https://placehold.it/1080x1920?text=POZA1",
+      "https://placehold.it/1080x1920?text=POZA2"
     ],
     "price": 55,
     "tags": [
@@ -73,7 +73,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 120,
     "tags": [
@@ -90,7 +90,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 130,
     "tags": [
@@ -107,7 +107,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 210,
     "tags": [
@@ -126,7 +126,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 60,
     "tags": [
@@ -145,7 +145,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 65,
     "tags": [
@@ -163,7 +163,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 76,
     "tags": [
@@ -181,7 +181,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 40,
     "tags": [
@@ -198,7 +198,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 60,
     "tags": [
@@ -217,7 +217,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 82,
     "tags": [
@@ -235,7 +235,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 45,
     "tags": [
@@ -253,7 +253,7 @@
       "Descriere pentru produs (aici pui descrierea)"
     ],
     "paths": [
-      "https://placehold.it/240x320?text=ERROR_404_Image_file_not_found"
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
     ],
     "price": 160,
     "tags": [

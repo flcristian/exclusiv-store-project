@@ -95,9 +95,9 @@ window.onload = function(){
 
   returnData()
    .then(data =>{
-   var index = -1;
-   for(var i = 0;i < data.length; i++){
-     if(data[i].id == id){
+    var index = -1;
+  for(var i = 0;i < data.length; i++){
+    if(data[i].id == id){
        index = i;
        break;
      }
@@ -111,3 +111,4 @@ window.onload = function(){
   }
   });
 }
+

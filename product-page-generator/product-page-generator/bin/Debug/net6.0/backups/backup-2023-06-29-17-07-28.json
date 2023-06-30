@@ -1,0 +1,267 @@
+[
+  {
+    "id": 371920,
+    "name": "Geaca",
+    "description": [
+      "Descriere 1 pentru produs (aici pui descrierea)",
+      "Descriere 2 pentru produs (aici pui descrierea)",
+      "Descriere 3 pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=POZA1",
+      "https://placehold.it/1080x1920?text=POZA2",
+      "https://placehold.it/1080x1920?text=POZA3",
+      "https://placehold.it/1080x1920?text=POZA4"
+    ],
+    "price": 68,
+    "tags": [
+      "geaca"
+    ],
+    "sizes": [
+      "M - 98cm lungime, 80cm talie",
+      "L - 102cm lungime, 82cm talie"
+    ],
+    "materials": "100% bumbac",
+    "stock": false
+  },
+  {
+    "id": 958759,
+    "name": "Bluza",
+    "description": [
+      "Descriere 1 pentru produs (aici pui descrierea)",
+      "Descriere 2 pentru produs (aici pui descrierea)",
+      "Descriere 3 pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=POZA1",
+      "https://placehold.it/1080x1920?text=POZA2"
+    ],
+    "price": 110,
+    "tags": [
+      "bluza"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": true
+  },
+  {
+    "id": 526101,
+    "name": "Blugi",
+    "description": [
+      "Descriere 1 pentru produs (aici pui descrierea)",
+      "Descriere 2 pentru produs (aici pui descrierea)",
+      "Descriere 3 pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=POZA1",
+      "https://placehold.it/1080x1920?text=POZA2"
+    ],
+    "price": 55,
+    "tags": [
+      "blugi",
+      "pantaloni",
+      "denim"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": true
+  },
+  {
+    "id": 122616,
+    "name": "Vesta",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 120,
+    "tags": [
+      "vesta"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": true
+  },
+  {
+    "id": 331975,
+    "name": "Rochie",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 130,
+    "tags": [
+      "rochie"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": false
+  },
+  {
+    "id": 154727,
+    "name": "Geaca Bomber",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 210,
+    "tags": [
+      "bomber",
+      "geaca",
+      "piele"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": true
+  },
+  {
+    "id": 263013,
+    "name": "Pantaloni Trenning",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 60,
+    "tags": [
+      "pantaloni",
+      "trenning",
+      "sport"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": true
+  },
+  {
+    "id": 962662,
+    "name": "Hanorac",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 65,
+    "tags": [
+      "bluza",
+      "hanorac"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": true
+  },
+  {
+    "id": 102365,
+    "name": "Pulover",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 76,
+    "tags": [
+      "bluza",
+      "pulover"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": true
+  },
+  {
+    "id": 119265,
+    "name": "Fusta",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 40,
+    "tags": [
+      "fusta"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": true
+  },
+  {
+    "id": 421971,
+    "name": "Shorts",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 60,
+    "tags": [
+      "pantaloni",
+      "shorts",
+      "pantaloni scurti"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": true
+  },
+  {
+    "id": 825241,
+    "name": "Camasa",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 82,
+    "tags": [
+      "bluza",
+      "camasa"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": false
+  },
+  {
+    "id": 596621,
+    "name": "Tricou",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 45,
+    "tags": [
+      "bluza",
+      "tricou"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": false
+  },
+  {
+    "id": 593896,
+    "name": "Palton",
+    "description": [
+      "Descriere pentru produs (aici pui descrierea)"
+    ],
+    "paths": [
+      "https://placehold.it/1080x1920?text=ERROR_404_Image_file_not_found"
+    ],
+    "price": 160,
+    "tags": [
+      "palton",
+      "geaca"
+    ],
+    "sizes": [],
+    "materials": "",
+    "stock": false
+  }
+]
